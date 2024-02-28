@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_fund_components_files",
+  "info": {
+    "displayName": "Files",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "enumeration",
+      "enum": [
+        "Prospectus",
+        "Fact Sheet",
+        "KIIDS",
+        "Plan Rules",
+        "Target Fund Fact Sheet"
+      ]
+    },
+    "attachedFiles": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

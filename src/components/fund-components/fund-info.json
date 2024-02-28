@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_fund_components_fund_infos",
+  "info": {
+    "displayName": "fund-info",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "fundSuitability": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "investmentHorizon": {
+      "type": "string"
+    },
+    "fundType": {
+      "type": "string"
+    },
+    "holdingPeriod": {
+      "type": "string"
+    },
+    "settlementDays": {
+      "type": "string"
+    },
+    "dailyCutOff": {
+      "type": "string"
+    },
+    "initialAmountInvestment": {
+      "type": "string"
+    },
+    "additionalInvestment": {
+      "type": "string"
+    },
+    "minimumRedemption": {
+      "type": "string"
+    },
+    "maintainingBalance": {
+      "type": "string"
+    },
+    "annualManagementFee": {
+      "type": "string"
+    },
+    "frontEndLoad": {
+      "type": "string"
+    },
+    "earlyRedemptionFee": {
+      "type": "string"
+    },
+    "historicalDividendYield": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_fund_components_top_holdings",
+  "info": {
+    "displayName": "Top Holdings",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "topHoldingComposition": {
+      "type": "component",
+      "repeatable": true,
+      "component": "fund-components.fund-portfolio"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_fund_components_fund_portfolios",
+  "info": {
+    "displayName": "Portfolio Composition",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "data": {
+      "type": "json"
+    }
+  }
+}

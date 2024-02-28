@@ -1,0 +1,87 @@
+{
+  "kind": "collectionType",
+  "collectionName": "funds",
+  "info": {
+    "singularName": "fund",
+    "pluralName": "funds",
+    "displayName": "Fund",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "investmentObjective": {
+      "type": "text"
+    },
+    "benchmark": {
+      "type": "text"
+    },
+    "alias": {
+      "type": "string"
+    },
+    "feederFund": {
+      "type": "text"
+    },
+    "targetFund": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "fundClass": {
+      "type": "enumeration",
+      "enum": [
+        "Mutual Fund",
+        "UITF"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "json"
+    },
+    "fundInfo": {
+      "displayName": "fund-info",
+      "type": "component",
+      "repeatable": false,
+      "component": "fund-components.fund-info"
+    },
+    "banner": {
+      "type": "text"
+    },
+    "attachment": {
+      "type": "component",
+      "repeatable": true,
+      "component": "fund-components.files"
+    },
+    "navpu": {
+      "displayName": "Navpu",
+      "type": "component",
+      "repeatable": false,
+      "component": "fund-components.navpu"
+    },
+    "portfolio": {
+      "displayName": "Portfolio",
+      "type": "component",
+      "repeatable": true,
+      "component": "fund-components.portfolio"
+    },
+    "topHoldings": {
+      "type": "component",
+      "repeatable": true,
+      "component": "fund-components.top-holdings"
+    },
+    "parties": {
+      "displayName": "Parties",
+      "type": "component",
+      "repeatable": true,
+      "component": "fund-components.parties"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_fund_components_navpus",
+  "info": {
+    "displayName": "Navpu",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "yearToDate": {
+      "type": "string"
+    },
+    "cumulativeSinceInception": {
+      "type": "string"
+    },
+    "inceptionDate": {
+      "type": "date"
+    },
+    "cumulativeMonth": {
+      "type": "date"
+    },
+    "navpuHistory": {
+      "type": "json"
+    },
+    "navDate": {
+      "type": "date"
+    },
+    "calendarYear": {
+      "type": "component",
+      "repeatable": true,
+      "component": "fund-components.calendar-year"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_fund_components_calendar_years",
+  "info": {
+    "displayName": "Calendar Year"
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "string"
+    },
+    "percent": {
+      "type": "string"
+    }
+  }
+}
