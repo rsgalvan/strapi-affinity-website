@@ -379,7 +379,7 @@ export interface ApiFundFund extends Schema.CollectionType {
     alias: Attribute.String;
     feederFund: Attribute.Text;
     targetFund: Attribute.Text;
-    slug: Attribute.UID<'api::fund.fund', 'name'> & Attribute.Required;
+    key: Attribute.UID<'api::fund.fund', 'name'> & Attribute.Required;
     fundClass: Attribute.Enumeration<['Mutual Fund', 'UITF']>;
     name: Attribute.String & Attribute.Required;
     category: Attribute.JSON;

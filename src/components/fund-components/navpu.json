@@ -6,22 +6,10 @@
   },
   "options": {},
   "attributes": {
-    "yearToDate": {
-      "type": "string"
-    },
     "cumulativeSinceInception": {
       "type": "string"
     },
-    "inceptionDate": {
-      "type": "date"
-    },
     "cumulativeMonth": {
-      "type": "date"
-    },
-    "navpuHistory": {
-      "type": "json"
-    },
-    "navDate": {
       "type": "date"
     },
     "calendarYear": {

@@ -76,12 +76,8 @@ export interface FundComponentsNavpu extends Schema.Component {
     description: '';
   };
   attributes: {
-    yearToDate: Attribute.String;
     cumulativeSinceInception: Attribute.String;
-    inceptionDate: Attribute.Date;
     cumulativeMonth: Attribute.Date;
-    navpuHistory: Attribute.JSON;
-    navDate: Attribute.Date;
     calendarYear: Attribute.Component<'fund-components.calendar-year', true>;
   };
 }
