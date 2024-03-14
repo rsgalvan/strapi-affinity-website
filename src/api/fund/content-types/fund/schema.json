@@ -82,6 +82,23 @@
       "type": "component",
       "repeatable": true,
       "component": "fund-components.parties"
+    },
+    "timeHorizon": {
+      "type": "enumeration",
+      "enum": [
+        "Short Term",
+        "Medium Term",
+        "Long Term"
+      ]
+    },
+    "assetClass": {
+      "type": "enumeration",
+      "enum": [
+        "Fixed Income",
+        "Balanced",
+        "Multi-Asset",
+        "Equity"
+      ]
     }
   }
 }

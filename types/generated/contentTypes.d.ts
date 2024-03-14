@@ -390,6 +390,12 @@ export interface ApiFundFund extends Schema.CollectionType {
     portfolio: Attribute.Component<'fund-components.portfolio', true>;
     topHoldings: Attribute.Component<'fund-components.top-holdings', true>;
     parties: Attribute.Component<'fund-components.parties', true>;
+    timeHorizon: Attribute.Enumeration<
+      ['Short Term', 'Medium Term', 'Long Term']
+    >;
+    assetClass: Attribute.Enumeration<
+      ['Fixed Income', 'Balanced', 'Multi-Asset', 'Equity']
+    >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
